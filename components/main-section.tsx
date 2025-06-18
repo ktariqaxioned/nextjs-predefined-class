@@ -13,7 +13,7 @@ const MainSection = () => {
         className="object-cover"
         priority
       />
-      <div className="overlay  inset-0  bg-primary opacity-70 z-10"></div>
+      <div className="overlay  inset-0 bg-primary opacity-70 z-10"></div>
       <div className="overlay inset-0 z-20 flex flex-col items-center justify-center text-white">
         <p className="font-sans">The Latest Product from ecoshop</p>
         <div className="mt-16 flex flex-col items-center justify-center">

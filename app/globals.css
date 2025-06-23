@@ -72,3 +72,7 @@ body {
 @utility overlay {
   @apply absolute left-0 right-0 top-0 border-0 w-full h-full;
 }
+
+@utility flex-center {
+  @apply flex items-center justify-center;
+}

@@ -7,8 +7,8 @@ const Navbar = () => {
       <div>
         <h2 className="heading">EcoShop</h2>
       </div>
-      <div className="flex items-center justify-center gap-6">
-        <div className="flex items-center justify-center gap-4">
+      <div className="flex-center gap-6">
+        <div className="flex-center gap-4">
           <Link href={"/"} className="nav-heading uppercase">
             home
           </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
             contact
           </Link>
         </div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex-center gap-4">
           <Image src={"/user-icon.svg"} alt="person" width={20} height={20} />
           <Image src={"/cart-icon.svg"} alt="person" width={20} height={20} />
           <Image src={"/search-icon.svg"} alt="person" width={20} height={20} />
